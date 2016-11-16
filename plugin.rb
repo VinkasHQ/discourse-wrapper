@@ -4,6 +4,9 @@
 # authors: Vinoth Kannan (vinothkannan@vinkas.com)
 # url: https://github.com/vinkas0/discourse-wrapper
 
+register_asset 'stylesheets/wrapper.scss'
+register_asset "javascripts/wrapper.js"
+
 add_admin_route 'menu_items.title', 'menu-items'
 
 Discourse::Application.routes.append do
